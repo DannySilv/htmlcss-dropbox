@@ -7,4 +7,144 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    font-weight: 500;
+}
+
+/* COMMON */
+img {
+    width: 100%;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mr-1 {
+    margin-right: 1em;
+}
+
+.ml-1 {
+    margin-left: 1em;
+}
+
+/* STRUCTURE */
+.container {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+
+.col-right {
+    float: right;
+}
+
+/* BUTTONS */
+.btn-blue {
+    background-color: #0061ff;
+    color: white;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
+.btn {
+    font-size: 0.7em;
+}
+
+/* BUTTON-SIZE */
+.small {
+    padding: 0.4em 1.2em;
+}
+
+.medium {
+    padding: ;
+}
+
+.large {
+    padding: ;
+}
+
+/* HEADER */
+header {
+    height: 50px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.header-nav {
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+.nav-left, .nav-right {
+    width: 50%;
+}
+
+.nav-left {
+    text-align: left;
+}
+
+.nav-right {
+    text-align: right;
+}
+
+.nav-logo {
+    vertical-align: middle;
+}
+
+.nav-logo img {
+    height: 15px;
+    width: auto;
+    line-height: 50px;
+    vertical-align: sub;
+}
+
+.header-menu li {
+    display: inline-block;
+    color: black;
+    font-size: 0.7em;
+    vertical-align: top;
+    line-height: 50px;
+}
+
+.left li {
+    margin-right: 1.5em;
+}
+
+.right li {
+    margin-left: 1.5em;
+}
+
+.header-menu a {
+    color: inherit;
+    vertical-align: middle;
+}
+
+.nav-btn a {
+    line-height: normal;
+    vertical-align: middle;
+    color: white;
 }
