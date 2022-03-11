@@ -46,6 +46,10 @@ a {
     font-size: 2em;
 }
 
+.pad-top-1-5 {
+    padding-top: 1.5em;
+}
+
 .mb-0-4 {
     margin-bottom: 0.4em;
 }
@@ -85,6 +89,11 @@ a {
     margin: 0 auto;
 }
 
+.common-container {
+    width: 70%;
+    margin: 8em auto 4em;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -106,6 +115,7 @@ a {
 }
 
 .btn-white {
+    border: 1px solid black;
     background-color: white;
     color: black;
 }
@@ -244,11 +254,6 @@ header {
 }
 
 /* PLANS */
-.plan-container {
-    width: 70%;
-    margin: 8em auto 4em;
-}
-
 .plan-container h2 {
     font-size: 1.7em;
 }
@@ -345,6 +350,24 @@ header {
     text-align: left;
     margin-left: 0;
     border: 0.0000000000000000000000000000000000000000000001em solid lightgray;
+}
+
+/* PARTNER */
+.partner-container {
+    width: 100%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+}
+
+.text-abs {
+    position: absolute;
+    top: 5%;
+    left: 0;
+}
+
+.partner-title {
+    font-size: 1.5em;
 }
 
 
