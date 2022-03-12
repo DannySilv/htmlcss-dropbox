@@ -55,6 +55,10 @@ a {
     padding-top: 1.5em;
 }
 
+.marg-top-bottom-5 {
+    padding: 5em 0;
+}
+
 .mb-0-4 {
     margin-bottom: 0.4em;
 }
@@ -390,6 +394,11 @@ header {
     width: 100%;
     margin: 0 auto;
 }
+
+.brands-footer-container {
+    width: 70%;
+    padding: 4em auto;
+}
 .img-container {
     position: relative; /* Per il layover */
     width: 50%;
@@ -416,7 +425,6 @@ header {
     padding-top: 1.6em;
     padding-bottom: 1.6em;
     overflow: auto;
-    resize: both;
 }
 
 .col-center-container p, hr {
@@ -433,6 +441,10 @@ header {
 
 .brands-col-center {
     width: 40%;
+}
+
+.brands-footer-container h2 {
+    color: #61092c;
 }
 
 .hr-container-2 hr {
