@@ -42,6 +42,11 @@ a {
     margin-right: 0;
 }
 
+.align-l {
+    text-align: left;
+    margin-left: 0;
+}
+
 .icon {
     font-size: 2em;
 }
@@ -106,6 +111,18 @@ a {
 
 .col-right {
     float: right;
+}
+
+/* LAYOVER */
+.layover::before {
+    content: "";
+    position: absolute;
+    margin: 1.5vh 4%;
+    top: 0;
+    left: 0;
+    width: 92%;
+    height: 23vh;
+    background-color: rgb(162, 211, 155, 0.8);
 }
 
 /* BUTTONS */
@@ -367,4 +384,97 @@ header {
     width: 100%;
 }
 
+/* BRANDS */
+.brands-container {
+    height: 52vh;
+    width: 100%;
+    margin: 0 auto;
+}
+.img-container {
+    position: relative; /* Per il layover */
+    width: 50%;
+    height: 26vh;
+    line-height: 26vh;
+}
 
+.img-container .sub {
+    position: relative; /* Per dargli z-index e posizionarlo sopra il layover */
+    width: 50%;
+    z-index: 20;
+}
+
+.sub > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+.col-center-container {
+    width: 88%;
+    height: 52vh;
+    padding-top: 1.6em;
+    padding-bottom: 1.6em;
+    overflow: auto;
+    resize: both;
+}
+
+.col-center-container p, hr {
+    width: 100%;
+}
+
+.col-center-img {
+    width: 25%;
+}
+
+.brands-col-side {
+    width: 30%;
+}
+
+.brands-col-center {
+    width: 40%;
+}
+
+.hr-container-2 hr {
+    width: 15%;
+    text-align: left;
+    margin-left: 0;
+    border: 0.0000000000000000000000000000000000000000000001em solid lightgray;
+}
+
+/* BRANDS-BACKGROUNDS */
+.bg-lightgray {
+    background-color: #f5f5f5;
+}
+
+.bg-green {
+    background-color: #d0e9cd;
+}
+
+.bg-dark-red {
+    background-color: #61082b;
+}
+
+.bg-blue {
+    background-color: #0093ce;
+}
+
+.bg-red {
+    background-color: #ff1c1c;
+}
+
+.bg-red-2 {
+    background-color: #d5001f;
+}
+
+.bg-cyan {
+    background-color: #b4d0e7;
+}
+
+.bg-dark-blue {
+    background-color: #0d2481;
+}
+
+.bg-yellow {
+    background-color: #ffd830;
+}
