@@ -63,6 +63,10 @@ a {
     margin-bottom: 0.4em;
 }
 
+.mb-0-7 {
+    margin-bottom: 0.7em;
+}
+
 .mb-1 {
     margin-bottom: 1em;
 }
@@ -489,4 +493,28 @@ header {
 
 .bg-yellow {
     background-color: #ffd830;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+/* FAQ */
+.faq-container {
+    width: 70%;
+    margin: 5em auto 5em;
+}
+
+.faq-container hr {
+    border: 0.0000000000000000000000000000000000000000000001em solid lightgray;
+}
+
+.faq-container a {
+    color: black;
+}
+
+/* FOOTER */
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
 }
