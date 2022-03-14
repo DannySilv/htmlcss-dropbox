@@ -597,6 +597,7 @@ header li a:hover:not(.btn-blue, .no-hover) {
 
 .faq-text {
     display: none;
+    width: 90%;
     font-size: 0.7em;
     color: rgb(102, 101, 101);
 }
@@ -609,6 +610,18 @@ header li a:hover:not(.btn-blue, .no-hover) {
     text-decoration: underline;
     color: inherit;
 }
+
+/* FOR VERSION WITH DETAIL INSTEAD OF HOVER */
+/* .faq-text-det {
+    font-size: 0.7em;
+    color: rgb(102, 101, 101);
+    padding: 0.8em 0;
+}
+
+.faq-text-det a {
+    text-decoration: underline;
+    color: inherit;
+} */
 
 /* FOOTER */
 .footer-container {
