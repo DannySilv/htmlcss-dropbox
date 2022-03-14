@@ -64,6 +64,10 @@ a {
     padding: 5em 0;
 }
 
+.mt-0-8 {
+    margin-top: 0.8em;
+}
+
 .mb-0-4 {
     margin-bottom: 0.4em;
 }
@@ -293,6 +297,11 @@ header li a:hover:not(.btn-blue, .no-hover) {
     margin-left: 0;
     text-align: left;
     background-color: #fcfafacc;
+    border-top: 0;
+    border-left:1px black;
+    border-right:1px black;
+    border-bottom:1px black;
+    border-style: solid;
     padding: 0 2em;
     line-height: 40px;
 }
@@ -565,6 +574,40 @@ header li a:hover:not(.btn-blue, .no-hover) {
 
 .faq-container a {
     color: black;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.faq-container div:hover .fa-angle-down {
+    display: none;
+}
+
+.faq-container .fa-angle-up {
+    display: none;
+    position: absolute;
+    top: 30%;
+    right: 0.0%;
+}
+
+.faq-container .hover div:hover .fa-angle-up {
+    display: inline-block;
+}
+
+.faq-text {
+    display: none;
+    font-size: 0.7em;
+    color: rgb(102, 101, 101);
+}
+
+.hover:hover .faq-text {
+    display: block;
+}
+
+.faq-text a {
+    text-decoration: underline;
+    color: inherit;
 }
 
 /* FOOTER */
