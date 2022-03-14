@@ -56,6 +56,10 @@ a {
     padding-top: 1.5em;
 }
 
+.pad-right-1 {
+    padding-right: 1em;
+}
+
 .marg-top-bottom-5 {
     padding: 5em 0;
 }
@@ -94,6 +98,10 @@ a {
 
 .ml-1 {
     margin-left: 1em;
+}
+
+.overflow {
+    overflow: auto;
 }
 
 /* STRUCTURE */
@@ -194,10 +202,6 @@ header {
     top: 0;
     right: 0;
     width: 100%;
-    border: 0 0 1px 0;
-    border-color: lightgray;
-    border-width: 1px;
-    border-style: solid;
     background-color: white;
     z-index: 100;
 }
@@ -230,19 +234,19 @@ header {
     vertical-align: sub;
 }
 
-.header-menu li {
+.header-menu > li {
+    position: relative;
     display: inline-block;
     color: black;
     font-size: 0.7em;
-    vertical-align: top;
-    line-height: 50px;
+    vertical-align: middle;
 }
 
 .left li {
     margin-right: 1.5em;
 }
 
-.right li {
+.right > li {
     margin-left: 1.5em;
 }
 
@@ -256,6 +260,28 @@ header {
     text-align: center;
     vertical-align: middle;
     color: white;
+}
+
+header li a:hover {
+    display: inline-block;
+    border-bottom: 3px solid gray;
+}
+
+.submenu {
+    position: absolute;
+    display: none;
+    width: 15vw;
+    top: 100%;
+    left: 0;
+    margin-left: 0;
+    text-align: left;
+    background-color: #fcfafacc;
+    padding: 0 2em;
+    line-height: 40px;
+}
+
+.hover:hover .submenu {
+    display: inline-block;
 }
 
 /* MAIN */
@@ -326,11 +352,12 @@ header {
 
 .card-main {
     width: 100%;
-    height: 750px;
+    height: 800px;
     border-width: 0 1px 1px 1px;
     border-color: lightgray;
     border-style: solid;
     padding: 2em 1.5em;
+    overflow: auto
 }
 
 .card-large {
@@ -342,6 +369,7 @@ header {
 }
 
 .card-main .thin {
+    font-size: 0.9em;
     font-weight: 400;
     color: gray;
 }
