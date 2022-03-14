@@ -582,6 +582,14 @@ header li a:hover:not(.btn-blue, .no-hover) {
     font-weight: 400;
 }
 
+.footer-container li a {
+    color: inherit;
+}
+
+.footer-container li:hover {
+    text-decoration: underline;
+}
+
 .col-list {
     width: 20%;
     color: white;
